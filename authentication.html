@@ -11,11 +11,36 @@
 </head>
 <body>
 
-    <h1 class="text-center">Hello Word!!!</h1>
+    <h1 class="text-center">Autenticação</h1>
+
+    <div class="col-md-4">
+        <h3 class="text-center" id="displayName">Você não está autenticado</h3>
+        <br>
+        <form >
+            <div class="form-group">
+                <label for="emailInput">E-mail</label>
+                <input type="email" class="form-control" id="emailInput" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+                <label for="passwordInput">Senha</label>
+                <input type="password" class="form-control" id="passwordInput" placeholder="Senha">
+
+            </div>
+            <br>
+        </form>
+
+        <button class="btn btn-lg btn-block btn-primary" id="authEmailPassButton">Autenticar</button>
+        <button class="btn btn-lg btn-block btn-info" id="createUserButton">Criar nova conta</button>
+
+        <p class="text-center">
+            <button class="btn btn-lg btn-warning" id="authAnonymouslyButton"><i class="fa fa-user fa-2x"></i></button>
+        </p>
+
+    </div>
 
     <ul>
         <li><a class="text-center" href="real-time-database.html">Real Time Database</a></li>
-        <li><a class="text-center" href="authentication.html">Autenticação</a></li>
+        
     </ul>
 
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
@@ -23,6 +48,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 
     <script src="JavaScript/script.js"></script>
+
+    <script src="authentication.js"></script>
     <script type="module">
 
         // Import the functions you need from the SDKs you need

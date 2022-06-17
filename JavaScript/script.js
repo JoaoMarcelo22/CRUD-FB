@@ -1,29 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/stilos.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
-    
-    <title>Crud - JS + Firebase</title>
-</head>
-<body>
-
-    <h1 class="text-center">Hello Word!!!</h1>
-
-    <ul>
-        <li><a class="text-center" href="real-time-database.html">Real Time Database</a></li>
-        <li><a class="text-center" href="authentication.html">Autenticação</a></li>
-    </ul>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-
-    <script src="JavaScript/script.js"></script>
-    <script type="module">
+        type="module"
 
         // Import the functions you need from the SDKs you need
       
@@ -64,7 +39,3 @@
         const app = initializeApp(firebaseConfig);
       
         const analytics = getAnalytics(app);
-      
-      </script>
-</body>
-</html>
